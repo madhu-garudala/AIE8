@@ -37,15 +37,24 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
-2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: Technical explanation and educational clarity
+    - Response: Object-oriented programming (OOP) is like organizing code the same way you organize things in real life. Instead of writing one long list of instructions, you create "objects" that represent things - like a Car object that has properties (color, speed) and actions (start, stop, turn). Just like how all cars share common features but each car is unique, OOP lets you create templates (classes) and make specific instances from them. This makes code more organized, reusable, and easier to understand.
+
+2. Read the following paragraph and provide a concise summary of the key points: "Artificial intelligence has revolutionized many industries by automating complex tasks, improving decision-making processes, and enabling new forms of human-computer interaction. From healthcare diagnostics to financial trading, AI systems can process vast amounts of data faster than humans while identifying patterns that might otherwise go unnoticed. However, the rapid adoption of AI also raises important questions about job displacement, privacy concerns, and the need for proper regulation to ensure these powerful tools are used responsibly."
+    - Aspect Tested: Reading comprehension and summarization
+    - Response: AI has transformed industries by automating tasks, enhancing decision-making, and creating new interaction methods. It excels at rapid data processing and pattern recognition across sectors like healthcare and finance. However, this advancement brings challenges including job displacement, privacy issues, and the need for responsible regulation.
+
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: Creative writing and storytelling ability
+    - Response: BOLT-7 had been discarded in the old subway tunnel for months, his circuits dimming with each passing day. The maintenance robot had been deemed "obsolete" and left to rust among forgotten infrastructure. One evening, a small mouse scurried past, pausing when BOLT's optical sensor flickered weakly. Instead of fleeing, the mouse approached curiously. Day after day, the mouse returned, bringing scraps of wire and metal it found throughout the tunnels. BOLT realized the tiny creature was trying to help repair him. Slowly, with the mouse's persistent assistance and companionship, BOLT's systems began functioning again. He had found friendship in the most unexpected place - not with another machine, but with a small, determined creature who saw value where others saw only scrap. Together, they made the forgotten tunnel their home.
+
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
-5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: Mathematical reasoning and problem-solving
+    - Response: To get exactly 12 apples: 12 ÷ 4 = 3 packs of apples needed. To get exactly 9 oranges: 9 ÷ 3 = 3 packs of oranges needed. Therefore, you need to buy 3 packs of apples and 3 packs of oranges.
+
+5. Rewrite the following paragraph in a professional, formal tone: "Hey there! So we've been working on this new project and it's pretty cool. We think it could really help people save money and time. The team has been putting in crazy hours to get everything ready, and honestly, we're super excited about launching it soon!"
+    - Aspect Tested: Tone adaptation and professional communication
+    - Response: We are pleased to announce our development of an innovative project designed to provide significant cost and time savings for our clients. Our dedicated team has invested considerable effort and resources to ensure comprehensive preparation for the upcoming launch. We anticipate that this initiative will deliver substantial value and look forward to its market introduction in the near future.
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -59,6 +68,18 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 
 What are some limitations of vibe checking as an evaluation tool?
 ##### ✅ Answer:
+
+Vibe checking has several significant limitations as an evaluation tool:
+
+1. **Lack of systematic methodology**: Vibe checks are informal and unstructured, making them prone to bias and inconsistent results across different evaluators.
+
+2. **Limited scope**: They only catch obvious, catastrophic failures and miss subtle issues, edge cases, or performance problems that could be critical in production.
+
+3. **No quantitative metrics**: Vibe checks provide subjective impressions rather than measurable performance indicators, making it difficult to track improvements or compare systems objectively.
+
+4. **Insufficient for production readiness**: While useful for prototyping and initial validation, vibe checks cannot replace comprehensive testing, security audits, performance benchmarking, or user acceptance testing required for production deployment.
+
+5. **Potential for false confidence**: A system that passes a vibe check might still have significant flaws that only emerge under specific conditions or with particular user behaviors. 
 
 ### 🚧 Advanced Build (OPTIONAL):
 
