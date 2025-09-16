@@ -92,11 +92,19 @@ Please make adjustments to your application that you believe will improve the vi
 - _describe adjustment(s) here_
 
 ##### Results:
-1. _Comment here how the change(s) impacted the vibe check of your system_
-2. 
-3. 
-4. 
-5.
+Document the impact of your changes on each of the five vibe check questions:
+
+1. **Technical explanation and educational clarity**: _Describe how your changes improved the system's ability to explain OOP concepts clearly and accurately_
+
+2. **Reading comprehension and summarization**: _Comment on whether your modifications enhanced the system's summarization capabilities and accuracy_
+
+3. **Creative writing and storytelling**: _Evaluate how your changes affected the quality, creativity, and coherence of generated stories_
+
+4. **Mathematical reasoning and problem-solving**: _Assess whether your improvements led to more accurate mathematical calculations and logical reasoning_
+
+5. **Tone adaptation and professional communication**: _Analyze how your changes influenced the system's ability to adapt writing style and maintain professional tone_
+
+**Overall Assessment**: _Provide a summary of the most significant improvements observed and any areas that still need further refinement_
 
 
 ## Submitting Your Homework
