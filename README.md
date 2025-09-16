@@ -41,6 +41,24 @@ If you do not complete the above requirements or maintain a high-quality standar
 
 This GitHub repository is your gateway to mastering the art of AI Engineering.  ***All assignments for the course will be released here for your building, shipping, and sharing adventures!***
 
+## 🏢 Enterprise Search RAG Application
+
+This repository includes a working **Retrieval Augmented Generation (RAG) application** that can answer questions about enterprise data including office locations, executive information, and company details. The application demonstrates key AI Engineering concepts including:
+
+- **Document Processing**: Loading and processing enterprise documents
+- **Vector Embeddings**: Converting text to vector representations using OpenAI's embedding model
+- **Vector Database**: Storing and searching through document embeddings
+- **RAG Pipeline**: Combining retrieval and generation for accurate, context-aware responses
+- **Metadata Filtering**: Organizing documents by department and category
+- **Interactive Interface**: User-friendly command-line interface for asking questions
+
+### Key Features
+- ✅ Loads enterprise data from `enterprise_data.txt` (offices, executives, company info)
+- ✅ Creates semantic search capabilities using vector embeddings
+- ✅ Provides accurate answers based only on the provided data
+- ✅ Supports metadata filtering and enterprise document management
+- ✅ Interactive demo interface for testing queries
+
 # 🙏 Contributions
 
 We believe in the power of collaboration. Contributions, ideas, and feedback are highly encouraged! Let's build the ultimate resource for AI Engineering together.
