@@ -1,0 +1,15 @@
+Employee Directory
+
+Engineering Team:
+- Sarah Johnson, Senior Software Engineer, sarah.johnson@company.com
+- Mike Chen, DevOps Engineer, mike.chen@company.com
+- Lisa Rodriguez, Frontend Developer, lisa.rodriguez@company.com
+
+Sales Team:
+- David Kim, Sales Director, david.kim@company.com
+- Jennifer Smith, Account Manager, jennifer.smith@company.com
+- Robert Wilson, Sales Representative, robert.wilson@company.com
+
+Marketing Team:
+- Amanda Brown, Marketing Manager, amanda.brown@company.com
+- Chris Davis, Content Creator, chris.davis@company.com

@@ -1,0 +1,37 @@
+This is a sample PDF content that would normally be in a PDF file. Since we can't create actual PDF files with this tool, I'll create a text file with PDF-like content for demonstration purposes.
+
+Company Employee Handbook
+
+Table of Contents:
+1. Welcome Message
+2. Company Values
+3. Code of Conduct
+4. Benefits and Compensation
+5. Leave Policies
+6. Performance Management
+7. Safety Guidelines
+
+Welcome Message:
+Welcome to our company! We're excited to have you as part of our team. This handbook contains important information about our company policies, procedures, and benefits.
+
+Company Values:
+- Integrity: We conduct business with honesty and transparency
+- Innovation: We encourage creative thinking and continuous improvement
+- Collaboration: We work together to achieve common goals
+- Excellence: We strive for the highest quality in everything we do
+
+Code of Conduct:
+All employees are expected to:
+- Treat colleagues with respect and professionalism
+- Maintain confidentiality of company information
+- Follow all applicable laws and regulations
+- Report any unethical behavior immediately
+
+Benefits and Compensation:
+- Competitive salary packages
+- Health, dental, and vision insurance
+- 401(k) retirement plan with company matching
+- Paid time off and holidays
+- Professional development opportunities
+
+This handbook is updated annually and all employees will be notified of changes.
