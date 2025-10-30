@@ -5,16 +5,28 @@ graphs can bind to their language models.
 """
 from __future__ import annotations
 
+import os
 from typing import List
 
-from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain_community.tools.arxiv.tool import ArxivQueryRun
 from app.rag import retrieve_information
 
 
 def get_tool_belt() -> List:
     """Return the list of tools available to agents (Tavily, Arxiv, RAG)."""
-    tavily_tool = TavilySearchResults(max_results=5)
-    return [tavily_tool, ArxivQueryRun(), retrieve_information]
+    tools = []
+    
+    # Only add Tavily if API key is available
+    if os.environ.get("TAVILY_API_KEY"):
+        from langchain_community.tools.tavily_search import TavilySearchResults
+        tools.append(TavilySearchResults(max_results=5))
+    
+    # Add Arxiv tool (doesn't require API key)
+    from langchain_community.tools.arxiv.tool import ArxivQueryRun
+    tools.append(ArxivQueryRun())
+    
+    # Add RAG tool
+    tools.append(retrieve_information)
+    
+    return tools
 
 
